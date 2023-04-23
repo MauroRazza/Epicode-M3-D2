@@ -117,13 +117,17 @@ article{
 
 .article{
     display: flex;
-    width: 1200px;
+    flex-wrap: wrap-reverse;
+    width: auto;
     background-color: #fef7e2;
+}
+
+.article img{
     padding: 2rem;
 }
 
 .info-article{
     display: flex;
     flex-direction: column;
-    padding-left: 1rem;
+    padding: 2rem;
 }
